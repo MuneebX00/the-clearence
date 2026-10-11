@@ -1,0 +1,10 @@
+2026-10-11 12:08:36.631: [INFO] CurrentProfilePath: E:\product-page\scratch\edge-profile\Default
+2026-10-11 12:08:36.631: [INFO] Profiles total count: 1
+2026-10-11 12:08:36.631: [INFO] Profile: name=Profile 1 path=E:\product-page\scratch\edge-profile\Default lastActive=null
+2026-10-11 12:08:36.631: [INFO] LastUsedProfileDir: E:\product-page\scratch\edge-profile\Default
+2026-10-11 12:08:36.631: [INFO] VisibilityChanged: 0
+2026-10-11 12:08:36.684: [INFO] OnDoneLoading sync enabled: 0
+2026-10-11 12:08:36.684: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-11 12:08:36.685: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-11 12:08:36.685: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-11 12:08:36.782: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0

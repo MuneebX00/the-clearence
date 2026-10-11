@@ -1,0 +1,6 @@
+2026/10/11-17:43:45.572 43c8 Reusing MANIFEST E:\product-page\scratch\edge-profile-scroll\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/10/11-17:43:45.573 43c8 Recovering log #4
+2026/10/11-17:43:45.573 43c8 Reusing old log E:\product-page\scratch\edge-profile-scroll\Default\EdgeCoupons/coupons_data.db/000004.log 
+2026/10/11-17:43:45.691 42cc Level-0 table #8: started
+2026/10/11-17:43:45.697 42cc Level-0 table #8: 683444 bytes OK
+2026/10/11-17:43:45.701 42cc Delete type=0 #4

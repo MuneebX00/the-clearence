@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: #F4F3EF; /* Limestone / warm ivory */
+  --color-foreground: #1A1A1A; /* Charcoal */
+  --color-forest: #14251A; /* Deep woodland green */
+  --color-olive: #5B6350; /* Rich natural green */
+  --color-stone: #E6E4DF;
+  --color-ivory: #FAF9F6;
+  --color-brass: #C5A059; /* Restrained brass */
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    color: var(--color-forest);
+  }
+}
+
+@layer utilities {
+  .reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .reveal-delay-1 { transition-delay: 150ms; }
+  .reveal-delay-2 { transition-delay: 300ms; }
+  
+  .img-hover {
+    transition: transform 1.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .group:hover .img-hover {
+    transform: scale(1.04);
+  }
+  
+  .fine-line {
+    @apply h-[1px] w-full bg-foreground/15;
+  }
+  .eyebrow {
+    @apply font-sans text-[10px] sm:text-xs uppercase tracking-[0.25em] font-medium text-olive;
+  }
+  
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-forest text-ivory px-10 py-5 text-[11px] font-semibold uppercase tracking-[0.2em] hover:bg-[#1C3324] transition-colors duration-500;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center bg-transparent border border-forest text-forest px-10 py-5 text-[11px] font-semibold uppercase tracking-[0.2em] hover:bg-forest hover:text-ivory transition-colors duration-500;
+  }
+  .btn-outline-ivory {
+    @apply inline-flex items-center justify-center bg-transparent border border-ivory/40 text-ivory px-10 py-5 text-[11px] font-semibold uppercase tracking-[0.2em] hover:bg-ivory hover:text-forest transition-colors duration-500;
+  }
+}
+
+@keyframes kenburns {
+  0% { transform: scale(1.07); }
+  100% { transform: scale(1); }
+}

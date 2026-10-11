@@ -1,0 +1,28 @@
+2026-10-11 12:11:51.051: [INFO] CurrentProfilePath: E:\product-page\scratch\edge-profile-scroll\Default
+2026-10-11 12:11:51.051: [INFO] Profiles total count: 1
+2026-10-11 12:11:51.051: [INFO] Profile: name=Profile 1 path=E:\product-page\scratch\edge-profile-scroll\Default lastActive=null
+2026-10-11 12:11:51.051: [INFO] LastUsedProfileDir: E:\product-page\scratch\edge-profile-scroll\Default
+2026-10-11 12:11:51.051: [INFO] VisibilityChanged: 0
+2026-10-11 12:11:51.150: [INFO] OnDoneLoading sync enabled: 0
+2026-10-11 12:11:51.150: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-11 12:11:51.150: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-11 12:11:51.150: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-11 12:11:51.240: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-11 12:11:54.142: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-11 12:11:54.149: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-11 12:11:54.154: [INFO] Primary account changed.
+2026-10-11 12:11:54.154: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-10-11 12:11:54.177: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-11 12:11:54.203: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-11 12:12:00.306: [INFO] Sync initialization duration: 5950ms
+2026-10-11 12:43:33.187: [INFO] CurrentProfilePath: E:\product-page\scratch\edge-profile-scroll\Default
+2026-10-11 12:43:33.187: [INFO] Profiles total count: 1
+2026-10-11 12:43:33.187: [INFO] Profile: name=Personal path=E:\product-page\scratch\edge-profile-scroll\Default lastActive=2026-10-11T12:11:51.087Z
+2026-10-11 12:43:33.187: [INFO] LastUsedProfileDir: E:\product-page\scratch\edge-profile-scroll\Default
+2026-10-11 12:43:33.187: [INFO] MostRecentlyActiveProfile: name=Personal path=E:\product-page\scratch\edge-profile-scroll\Default lastActive=2026-10-11T12:11:51.087Z
+2026-10-11 12:43:33.187: [INFO] VisibilityChanged: 0
+2026-10-11 12:43:33.274: [INFO] OnDoneLoading sync enabled: 1
+2026-10-11 12:43:33.274: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-11 12:43:33.274: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-11 12:43:33.274: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-11 12:43:33.461: [INFO] Sync initialization duration: 178ms

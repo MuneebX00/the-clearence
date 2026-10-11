@@ -1,0 +1,5 @@
+2026/10/11-17:34:05.211 49b8 Creating DB E:\product-page\scratch\edge-profile-bottom\Default\EdgeCoupons/coupons_data.db since it was missing.
+2026/10/11-17:34:05.250 49b8 Reusing MANIFEST E:\product-page\scratch\edge-profile-bottom\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/10/11-17:34:09.321 14bc Level-0 table #5: started
+2026/10/11-17:34:09.326 14bc Level-0 table #5: 683273 bytes OK
+2026/10/11-17:34:09.329 14bc Delete type=0 #3
